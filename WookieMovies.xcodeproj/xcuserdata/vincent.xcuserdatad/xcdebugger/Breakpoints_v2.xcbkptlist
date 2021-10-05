@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B6DCF753-2F26-4EAB-9DA6-1710F6048BF4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D3F20D7-3634-4F59-84A6-0A182CB3ED3D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WookieMoviesTests/WookieMoviesTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "testMoviesCategorizeAppropriately()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6D3F20D7-3634-4F59-84A6-0A182CB3ED3D - 57a5eb0c45ffe770"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;WookieMovies.MovieList&gt;) -&gt; () in WookieMoviesTests.WookieMoviesTests.testMoviesCategorizeAppropriately() -&gt; ()"
+                  moduleName = "WookieMoviesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vincent/Development/Development2021/WookieMovies/WookieMoviesTests/WookieMoviesTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "473">
+               </Location>
+               <Location
+                  uuid = "6D3F20D7-3634-4F59-84A6-0A182CB3ED3D - 57a5eb0c45ffe770"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;WookieMovies.MovieList&gt;) -&gt; () in WookieMoviesTests.WookieMoviesTests.testMoviesCategorizeAppropriately() -&gt; ()"
+                  moduleName = "WookieMoviesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vincent/Development/Development2021/WookieMovies/WookieMoviesTests/WookieMoviesTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "482">
+               </Location>
+               <Location
+                  uuid = "6D3F20D7-3634-4F59-84A6-0A182CB3ED3D - 57a5eb0c45ffe770"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;WookieMovies.MovieList&gt;) -&gt; () in WookieMoviesTests.WookieMoviesTests.testMoviesCategorizeAppropriately() -&gt; ()"
+                  moduleName = "WookieMoviesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vincent/Development/Development2021/WookieMovies/WookieMoviesTests/WookieMoviesTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "427">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63E272F7-06DA-4806-A99C-37025DC7140F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WookieMovies/Views/StarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

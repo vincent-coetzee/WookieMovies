@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1E4981270B82AC00203E56 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1E4980270B82AC00203E56 /* HomeViewController.swift */; };
+		BF1E4988270B89A500203E56 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1E4986270B89A500203E56 /* MovieViewCell.swift */; };
+		BF1E498A270B9B6C00203E56 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D13270B7FBA00DFBA49 /* OpenSans-Bold.ttf */; };
+		BF1E498B270B9B6E00203E56 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D13270B7FBA00DFBA49 /* OpenSans-Bold.ttf */; };
+		BF1E498C270B9B6F00203E56 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D13270B7FBA00DFBA49 /* OpenSans-Bold.ttf */; };
+		BF1E498D270B9B7500203E56 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D15270B7FBB00DFBA49 /* OpenSans-ExtraBoldItalic.ttf */; };
+		BF1E498E270B9B7500203E56 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D10270B7FB500DFBA49 /* OpenSans-LightItalic.ttf */; };
+		BF1E498F270B9B7500203E56 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D17270B7FBB00DFBA49 /* OpenSans-BoldItalic.ttf */; };
+		BF1E4990270B9B7500203E56 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D12270B7FB900DFBA49 /* OpenSans-ExtraBold.ttf */; };
+		BF1E4991270B9B7500203E56 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D19270B7FBB00DFBA49 /* OpenSans-Light.ttf */; };
+		BF1E4992270B9B7500203E56 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D18270B7FBB00DFBA49 /* OpenSans-SemiboldItalic.ttf */; };
+		BF1E4993270B9B7500203E56 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D11270B7FB700DFBA49 /* OpenSans-Italic.ttf */; };
+		BF1E4994270B9B7500203E56 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D14270B7FBB00DFBA49 /* OpenSans-Regular.ttf */; };
+		BF1E4995270B9B7500203E56 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D16270B7FBB00DFBA49 /* OpenSans-Semibold.ttf */; };
+		BF1E4996270B9B7600203E56 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D15270B7FBB00DFBA49 /* OpenSans-ExtraBoldItalic.ttf */; };
+		BF1E4997270B9B7600203E56 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D10270B7FB500DFBA49 /* OpenSans-LightItalic.ttf */; };
+		BF1E4998270B9B7600203E56 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D17270B7FBB00DFBA49 /* OpenSans-BoldItalic.ttf */; };
+		BF1E4999270B9B7600203E56 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D12270B7FB900DFBA49 /* OpenSans-ExtraBold.ttf */; };
+		BF1E499A270B9B7600203E56 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D19270B7FBB00DFBA49 /* OpenSans-Light.ttf */; };
+		BF1E499B270B9B7600203E56 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D18270B7FBB00DFBA49 /* OpenSans-SemiboldItalic.ttf */; };
+		BF1E499C270B9B7600203E56 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D11270B7FB700DFBA49 /* OpenSans-Italic.ttf */; };
+		BF1E499D270B9B7600203E56 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D14270B7FBB00DFBA49 /* OpenSans-Regular.ttf */; };
+		BF1E499E270B9B7600203E56 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D16270B7FBB00DFBA49 /* OpenSans-Semibold.ttf */; };
+		BF1E499F270B9B7600203E56 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D15270B7FBB00DFBA49 /* OpenSans-ExtraBoldItalic.ttf */; };
+		BF1E49A0270B9B7600203E56 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D10270B7FB500DFBA49 /* OpenSans-LightItalic.ttf */; };
+		BF1E49A1270B9B7600203E56 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D17270B7FBB00DFBA49 /* OpenSans-BoldItalic.ttf */; };
+		BF1E49A2270B9B7600203E56 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D12270B7FB900DFBA49 /* OpenSans-ExtraBold.ttf */; };
+		BF1E49A3270B9B7600203E56 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D19270B7FBB00DFBA49 /* OpenSans-Light.ttf */; };
+		BF1E49A4270B9B7600203E56 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D18270B7FBB00DFBA49 /* OpenSans-SemiboldItalic.ttf */; };
+		BF1E49A5270B9B7600203E56 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D11270B7FB700DFBA49 /* OpenSans-Italic.ttf */; };
+		BF1E49A6270B9B7600203E56 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D14270B7FBB00DFBA49 /* OpenSans-Regular.ttf */; };
+		BF1E49A7270B9B7600203E56 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D16270B7FBB00DFBA49 /* OpenSans-Semibold.ttf */; };
+		BF1E49AC270BADEA00203E56 /* GenreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1E49AB270BADEA00203E56 /* GenreView.xib */; };
+		BF1E49AE270BAF1000203E56 /* GenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1E49AD270BAF1000203E56 /* GenreView.swift */; };
+		BF1E49B0270BB5D100203E56 /* MovieViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1E49AF270BB5D100203E56 /* MovieViewCell.xib */; };
+		BF1E49B4270C0EC400203E56 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1E49B3270C0EC400203E56 /* MovieDetailViewController.swift */; };
+		BF1E49B6270C240300203E56 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1E49B5270C240300203E56 /* StarView.swift */; };
+		BF1E49B8270C26C000203E56 /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1E49B7270C26C000203E56 /* StarsView.swift */; };
+		BF20B8A4270C5693005E2F82 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20B8A3270C5693005E2F82 /* SearchViewController.swift */; };
+		BF20B8A6270C5DB4005E2F82 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20B8A5270C5DB4005E2F82 /* MovieTableViewCell.swift */; };
+		BF20B8A8270C7661005E2F82 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20B8A7270C7661005E2F82 /* FavouriteView.swift */; };
+		BF20B8AE270C83CB005E2F82 /* FavouriteViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20B8AD270C83CB005E2F82 /* FavouriteViewDelegate.swift */; };
+		BF712CD4270B6F7D00DFBA49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF712CD3270B6F7D00DFBA49 /* AppDelegate.swift */; };
+		BF712CD6270B6F7D00DFBA49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF712CD5270B6F7D00DFBA49 /* SceneDelegate.swift */; };
+		BF712CDB270B6F7D00DFBA49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF712CD9270B6F7D00DFBA49 /* Main.storyboard */; };
+		BF712CDD270B6F7E00DFBA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF712CDC270B6F7E00DFBA49 /* Assets.xcassets */; };
+		BF712CE0270B6F7E00DFBA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF712CDE270B6F7E00DFBA49 /* LaunchScreen.storyboard */; };
+		BF712CEB270B6F7F00DFBA49 /* WookieMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF712CEA270B6F7F00DFBA49 /* WookieMoviesTests.swift */; };
+		BF712CF5270B6F7F00DFBA49 /* WookieMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF712CF4270B6F7F00DFBA49 /* WookieMoviesUITests.swift */; };
+		BF712CF7270B6F7F00DFBA49 /* WookieMoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF712CF6270B6F7F00DFBA49 /* WookieMoviesUITestsLaunchTests.swift */; };
+		BF712D05270B6FA200DFBA49 /* WookieMovieError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF712D04270B6FA200DFBA49 /* WookieMovieError.swift */; };
+		BF712D08270B6FAC00DFBA49 /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF712D07270B6FAC00DFBA49 /* Optional+Extensions.swift */; };
+		BF712D0D270B6FB800DFBA49 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF712D0A270B6FB800DFBA49 /* Movie.swift */; };
+		BF712D0E270B6FB800DFBA49 /* MovieDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF712D0B270B6FB800DFBA49 /* MovieDatabase.swift */; };
+		BF712D0F270B6FB800DFBA49 /* MovieGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF712D0C270B6FB800DFBA49 /* MovieGenre.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF712CE7270B6F7F00DFBA49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF712CC8270B6F7D00DFBA49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF712CCF270B6F7D00DFBA49;
+			remoteInfo = WookieMovies;
+		};
+		BF712CF1270B6F7F00DFBA49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF712CC8270B6F7D00DFBA49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF712CCF270B6F7D00DFBA49;
+			remoteInfo = WookieMovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF1E4980270B82AC00203E56 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BF1E4986270B89A500203E56 /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
+		BF1E49AB270BADEA00203E56 /* GenreView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenreView.xib; sourceTree = "<group>"; };
+		BF1E49AD270BAF1000203E56 /* GenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreView.swift; sourceTree = "<group>"; };
+		BF1E49AF270BB5D100203E56 /* MovieViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieViewCell.xib; sourceTree = "<group>"; };
+		BF1E49B3270C0EC400203E56 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		BF1E49B5270C240300203E56 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		BF1E49B7270C26C000203E56 /* StarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
+		BF20B8A3270C5693005E2F82 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BF20B8A5270C5DB4005E2F82 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		BF20B8A7270C7661005E2F82 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		BF20B8AD270C83CB005E2F82 /* FavouriteViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewDelegate.swift; sourceTree = "<group>"; };
+		BF20B8AF270C8D1A005E2F82 /* SearchPage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SearchPage.md; sourceTree = "<group>"; };
+		BF712CD0270B6F7D00DFBA49 /* WookieMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WookieMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF712CD3270B6F7D00DFBA49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF712CD5270B6F7D00DFBA49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF712CDA270B6F7D00DFBA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF712CDC270B6F7E00DFBA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF712CDF270B6F7E00DFBA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF712CE1270B6F7E00DFBA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF712CE6270B6F7F00DFBA49 /* WookieMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WookieMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF712CEA270B6F7F00DFBA49 /* WookieMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WookieMoviesTests.swift; sourceTree = "<group>"; };
+		BF712CF0270B6F7F00DFBA49 /* WookieMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WookieMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF712CF4270B6F7F00DFBA49 /* WookieMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WookieMoviesUITests.swift; sourceTree = "<group>"; };
+		BF712CF6270B6F7F00DFBA49 /* WookieMoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WookieMoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF712D04270B6FA200DFBA49 /* WookieMovieError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WookieMovieError.swift; sourceTree = "<group>"; };
+		BF712D07270B6FAC00DFBA49 /* Optional+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		BF712D0A270B6FB800DFBA49 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BF712D0B270B6FB800DFBA49 /* MovieDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDatabase.swift; sourceTree = "<group>"; };
+		BF712D0C270B6FB800DFBA49 /* MovieGenre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieGenre.swift; sourceTree = "<group>"; };
+		BF712D10270B7FB500DFBA49 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		BF712D11270B7FB700DFBA49 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		BF712D12270B7FB900DFBA49 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BF712D13270B7FBA00DFBA49 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		BF712D14270B7FBB00DFBA49 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		BF712D15270B7FBB00DFBA49 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		BF712D16270B7FBB00DFBA49 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		BF712D17270B7FBB00DFBA49 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BF712D18270B7FBB00DFBA49 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		BF712D19270B7FBB00DFBA49 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF712CCD270B6F7D00DFBA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF712CE3270B6F7F00DFBA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF712CED270B6F7F00DFBA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1E497F270B828400203E56 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E4980270B82AC00203E56 /* HomeViewController.swift */,
+				BF1E49B3270C0EC400203E56 /* MovieDetailViewController.swift */,
+				BF20B8A3270C5693005E2F82 /* SearchViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BF1E49A8270BA96100203E56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF20B8A7270C7661005E2F82 /* FavouriteView.swift */,
+				BF1E49AD270BAF1000203E56 /* GenreView.swift */,
+				BF20B8A5270C5DB4005E2F82 /* MovieTableViewCell.swift */,
+				BF1E4986270B89A500203E56 /* MovieViewCell.swift */,
+				BF1E49B7270C26C000203E56 /* StarsView.swift */,
+				BF1E49B5270C240300203E56 /* StarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF20B8A9270C7AE4005E2F82 /* NIBs and Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E49AB270BADEA00203E56 /* GenreView.xib */,
+				BF712CDE270B6F7E00DFBA49 /* LaunchScreen.storyboard */,
+				BF712CD9270B6F7D00DFBA49 /* Main.storyboard */,
+				BF1E49AF270BB5D100203E56 /* MovieViewCell.xib */,
+			);
+			path = "NIBs and Storyboards";
+			sourceTree = "<group>";
+		};
+		BF712CC7270B6F7D00DFBA49 = {
+			isa = PBXGroup;
+			children = (
+				BF20B8AF270C8D1A005E2F82 /* SearchPage.md */,
+				BF712CD2270B6F7D00DFBA49 /* WookieMovies */,
+				BF712CE9270B6F7F00DFBA49 /* WookieMoviesTests */,
+				BF712CF3270B6F7F00DFBA49 /* WookieMoviesUITests */,
+				BF712CD1270B6F7D00DFBA49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF712CD1270B6F7D00DFBA49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF712CD0270B6F7D00DFBA49 /* WookieMovies.app */,
+				BF712CE6270B6F7F00DFBA49 /* WookieMoviesTests.xctest */,
+				BF712CF0270B6F7F00DFBA49 /* WookieMoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF712CD2270B6F7D00DFBA49 /* WookieMovies */ = {
+			isa = PBXGroup;
+			children = (
+				BF712CD3270B6F7D00DFBA49 /* AppDelegate.swift */,
+				BF712CDC270B6F7E00DFBA49 /* Assets.xcassets */,
+				BF712D03270B6FA200DFBA49 /* Errors */,
+				BF712D1A270B7FD600DFBA49 /* Font Assets */,
+				BF712CE1270B6F7E00DFBA49 /* Info.plist */,
+				BF712D09270B6FB800DFBA49 /* Models */,
+				BF20B8A9270C7AE4005E2F82 /* NIBs and Storyboards */,
+				BF712CD5270B6F7D00DFBA49 /* SceneDelegate.swift */,
+				BF712D06270B6FAC00DFBA49 /* System Class Extensions */,
+				BF1E497F270B828400203E56 /* View Controllers */,
+				BF1E49A8270BA96100203E56 /* Views */,
+				BF20B8AD270C83CB005E2F82 /* FavouriteViewDelegate.swift */,
+			);
+			path = WookieMovies;
+			sourceTree = "<group>";
+		};
+		BF712CE9270B6F7F00DFBA49 /* WookieMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF712CEA270B6F7F00DFBA49 /* WookieMoviesTests.swift */,
+			);
+			path = WookieMoviesTests;
+			sourceTree = "<group>";
+		};
+		BF712CF3270B6F7F00DFBA49 /* WookieMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF712CF4270B6F7F00DFBA49 /* WookieMoviesUITests.swift */,
+				BF712CF6270B6F7F00DFBA49 /* WookieMoviesUITestsLaunchTests.swift */,
+			);
+			path = WookieMoviesUITests;
+			sourceTree = "<group>";
+		};
+		BF712D03270B6FA200DFBA49 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				BF712D04270B6FA200DFBA49 /* WookieMovieError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		BF712D06270B6FAC00DFBA49 /* System Class Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF712D07270B6FAC00DFBA49 /* Optional+Extensions.swift */,
+			);
+			path = "System Class Extensions";
+			sourceTree = "<group>";
+		};
+		BF712D09270B6FB800DFBA49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF712D0A270B6FB800DFBA49 /* Movie.swift */,
+				BF712D0B270B6FB800DFBA49 /* MovieDatabase.swift */,
+				BF712D0C270B6FB800DFBA49 /* MovieGenre.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF712D1A270B7FD600DFBA49 /* Font Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BF712D13270B7FBA00DFBA49 /* OpenSans-Bold.ttf */,
+				BF712D17270B7FBB00DFBA49 /* OpenSans-BoldItalic.ttf */,
+				BF712D12270B7FB900DFBA49 /* OpenSans-ExtraBold.ttf */,
+				BF712D15270B7FBB00DFBA49 /* OpenSans-ExtraBoldItalic.ttf */,
+				BF712D11270B7FB700DFBA49 /* OpenSans-Italic.ttf */,
+				BF712D19270B7FBB00DFBA49 /* OpenSans-Light.ttf */,
+				BF712D10270B7FB500DFBA49 /* OpenSans-LightItalic.ttf */,
+				BF712D14270B7FBB00DFBA49 /* OpenSans-Regular.ttf */,
+				BF712D16270B7FBB00DFBA49 /* OpenSans-Semibold.ttf */,
+				BF712D18270B7FBB00DFBA49 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = "Font Assets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF712CCF270B6F7D00DFBA49 /* WookieMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF712CFA270B6F7F00DFBA49 /* Build configuration list for PBXNativeTarget "WookieMovies" */;
+			buildPhases = (
+				BF712CCC270B6F7D00DFBA49 /* Sources */,
+				BF712CCD270B6F7D00DFBA49 /* Frameworks */,
+				BF712CCE270B6F7D00DFBA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WookieMovies;
+			productName = WookieMovies;
+			productReference = BF712CD0270B6F7D00DFBA49 /* WookieMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF712CE5270B6F7F00DFBA49 /* WookieMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF712CFD270B6F7F00DFBA49 /* Build configuration list for PBXNativeTarget "WookieMoviesTests" */;
+			buildPhases = (
+				BF712CE2270B6F7F00DFBA49 /* Sources */,
+				BF712CE3270B6F7F00DFBA49 /* Frameworks */,
+				BF712CE4270B6F7F00DFBA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF712CE8270B6F7F00DFBA49 /* PBXTargetDependency */,
+			);
+			name = WookieMoviesTests;
+			productName = WookieMoviesTests;
+			productReference = BF712CE6270B6F7F00DFBA49 /* WookieMoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF712CEF270B6F7F00DFBA49 /* WookieMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF712D00270B6F7F00DFBA49 /* Build configuration list for PBXNativeTarget "WookieMoviesUITests" */;
+			buildPhases = (
+				BF712CEC270B6F7F00DFBA49 /* Sources */,
+				BF712CED270B6F7F00DFBA49 /* Frameworks */,
+				BF712CEE270B6F7F00DFBA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF712CF2270B6F7F00DFBA49 /* PBXTargetDependency */,
+			);
+			name = WookieMoviesUITests;
+			productName = WookieMoviesUITests;
+			productReference = BF712CF0270B6F7F00DFBA49 /* WookieMoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF712CC8270B6F7D00DFBA49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BF712CCF270B6F7D00DFBA49 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BF712CE5270B6F7F00DFBA49 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BF712CCF270B6F7D00DFBA49;
+					};
+					BF712CEF270B6F7F00DFBA49 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BF712CCF270B6F7D00DFBA49;
+					};
+				};
+			};
+			buildConfigurationList = BF712CCB270B6F7D00DFBA49 /* Build configuration list for PBXProject "WookieMovies" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF712CC7270B6F7D00DFBA49;
+			productRefGroup = BF712CD1270B6F7D00DFBA49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF712CCF270B6F7D00DFBA49 /* WookieMovies */,
+				BF712CE5270B6F7F00DFBA49 /* WookieMoviesTests */,
+				BF712CEF270B6F7F00DFBA49 /* WookieMoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF712CCE270B6F7D00DFBA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF712CE0270B6F7E00DFBA49 /* LaunchScreen.storyboard in Resources */,
+				BF1E498D270B9B7500203E56 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				BF1E4990270B9B7500203E56 /* OpenSans-ExtraBold.ttf in Resources */,
+				BF1E49AC270BADEA00203E56 /* GenreView.xib in Resources */,
+				BF1E49B0270BB5D100203E56 /* MovieViewCell.xib in Resources */,
+				BF1E498E270B9B7500203E56 /* OpenSans-LightItalic.ttf in Resources */,
+				BF712CDD270B6F7E00DFBA49 /* Assets.xcassets in Resources */,
+				BF712CDB270B6F7D00DFBA49 /* Main.storyboard in Resources */,
+				BF1E498A270B9B6C00203E56 /* OpenSans-Bold.ttf in Resources */,
+				BF1E498F270B9B7500203E56 /* OpenSans-BoldItalic.ttf in Resources */,
+				BF1E4991270B9B7500203E56 /* OpenSans-Light.ttf in Resources */,
+				BF1E4993270B9B7500203E56 /* OpenSans-Italic.ttf in Resources */,
+				BF1E4994270B9B7500203E56 /* OpenSans-Regular.ttf in Resources */,
+				BF1E4995270B9B7500203E56 /* OpenSans-Semibold.ttf in Resources */,
+				BF1E4992270B9B7500203E56 /* OpenSans-SemiboldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF712CE4270B6F7F00DFBA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1E499A270B9B7600203E56 /* OpenSans-Light.ttf in Resources */,
+				BF1E499C270B9B7600203E56 /* OpenSans-Italic.ttf in Resources */,
+				BF1E498B270B9B6E00203E56 /* OpenSans-Bold.ttf in Resources */,
+				BF1E4996270B9B7600203E56 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				BF1E499E270B9B7600203E56 /* OpenSans-Semibold.ttf in Resources */,
+				BF1E499B270B9B7600203E56 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				BF1E4998270B9B7600203E56 /* OpenSans-BoldItalic.ttf in Resources */,
+				BF1E4997270B9B7600203E56 /* OpenSans-LightItalic.ttf in Resources */,
+				BF1E499D270B9B7600203E56 /* OpenSans-Regular.ttf in Resources */,
+				BF1E4999270B9B7600203E56 /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF712CEE270B6F7F00DFBA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1E49A3270B9B7600203E56 /* OpenSans-Light.ttf in Resources */,
+				BF1E49A5270B9B7600203E56 /* OpenSans-Italic.ttf in Resources */,
+				BF1E498C270B9B6F00203E56 /* OpenSans-Bold.ttf in Resources */,
+				BF1E499F270B9B7600203E56 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				BF1E49A7270B9B7600203E56 /* OpenSans-Semibold.ttf in Resources */,
+				BF1E49A4270B9B7600203E56 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				BF1E49A1270B9B7600203E56 /* OpenSans-BoldItalic.ttf in Resources */,
+				BF1E49A0270B9B7600203E56 /* OpenSans-LightItalic.ttf in Resources */,
+				BF1E49A6270B9B7600203E56 /* OpenSans-Regular.ttf in Resources */,
+				BF1E49A2270B9B7600203E56 /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF712CCC270B6F7D00DFBA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF20B8A6270C5DB4005E2F82 /* MovieTableViewCell.swift in Sources */,
+				BF712D0E270B6FB800DFBA49 /* MovieDatabase.swift in Sources */,
+				BF712D08270B6FAC00DFBA49 /* Optional+Extensions.swift in Sources */,
+				BF1E49B4270C0EC400203E56 /* MovieDetailViewController.swift in Sources */,
+				BF712D0D270B6FB800DFBA49 /* Movie.swift in Sources */,
+				BF712D0F270B6FB800DFBA49 /* MovieGenre.swift in Sources */,
+				BF1E49AE270BAF1000203E56 /* GenreView.swift in Sources */,
+				BF1E4981270B82AC00203E56 /* HomeViewController.swift in Sources */,
+				BF712D05270B6FA200DFBA49 /* WookieMovieError.swift in Sources */,
+				BF20B8AE270C83CB005E2F82 /* FavouriteViewDelegate.swift in Sources */,
+				BF20B8A4270C5693005E2F82 /* SearchViewController.swift in Sources */,
+				BF1E49B8270C26C000203E56 /* StarsView.swift in Sources */,
+				BF1E4988270B89A500203E56 /* MovieViewCell.swift in Sources */,
+				BF712CD4270B6F7D00DFBA49 /* AppDelegate.swift in Sources */,
+				BF1E49B6270C240300203E56 /* StarView.swift in Sources */,
+				BF20B8A8270C7661005E2F82 /* FavouriteView.swift in Sources */,
+				BF712CD6270B6F7D00DFBA49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF712CE2270B6F7F00DFBA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF712CEB270B6F7F00DFBA49 /* WookieMoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF712CEC270B6F7F00DFBA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF712CF5270B6F7F00DFBA49 /* WookieMoviesUITests.swift in Sources */,
+				BF712CF7270B6F7F00DFBA49 /* WookieMoviesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF712CE8270B6F7F00DFBA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF712CCF270B6F7D00DFBA49 /* WookieMovies */;
+			targetProxy = BF712CE7270B6F7F00DFBA49 /* PBXContainerItemProxy */;
+		};
+		BF712CF2270B6F7F00DFBA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF712CCF270B6F7D00DFBA49 /* WookieMovies */;
+			targetProxy = BF712CF1270B6F7F00DFBA49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF712CD9270B6F7D00DFBA49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF712CDA270B6F7D00DFBA49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF712CDE270B6F7E00DFBA49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF712CDF270B6F7E00DFBA49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF712CF8270B6F7F00DFBA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF712CF9270B6F7F00DFBA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF712CFB270B6F7F00DFBA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VWYS94M5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WookieMovies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.WookieMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF712CFC270B6F7F00DFBA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VWYS94M5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WookieMovies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.WookieMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF712CFE270B6F7F00DFBA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VWYS94M5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.WookieMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WookieMovies.app/WookieMovies";
+			};
+			name = Debug;
+		};
+		BF712CFF270B6F7F00DFBA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VWYS94M5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.WookieMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WookieMovies.app/WookieMovies";
+			};
+			name = Release;
+		};
+		BF712D01270B6F7F00DFBA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VWYS94M5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.WookieMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WookieMovies;
+			};
+			name = Debug;
+		};
+		BF712D02270B6F7F00DFBA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VWYS94M5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.WookieMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WookieMovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF712CCB270B6F7D00DFBA49 /* Build configuration list for PBXProject "WookieMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF712CF8270B6F7F00DFBA49 /* Debug */,
+				BF712CF9270B6F7F00DFBA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF712CFA270B6F7F00DFBA49 /* Build configuration list for PBXNativeTarget "WookieMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF712CFB270B6F7F00DFBA49 /* Debug */,
+				BF712CFC270B6F7F00DFBA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF712CFD270B6F7F00DFBA49 /* Build configuration list for PBXNativeTarget "WookieMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF712CFE270B6F7F00DFBA49 /* Debug */,
+				BF712CFF270B6F7F00DFBA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF712D00270B6F7F00DFBA49 /* Build configuration list for PBXNativeTarget "WookieMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF712D01270B6F7F00DFBA49 /* Debug */,
+				BF712D02270B6F7F00DFBA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF712CC8270B6F7D00DFBA49 /* Project object */;
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CpK-iF-L9j">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Light.ttf">
+            <string>OpenSans-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Search-->
+        <scene sceneID="ndh-uw-vNc">
+            <objects>
+                <viewController id="HDu-Z5-4A1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oZZ-qH-Dvr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0Hz-uq-u8P"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="IconSearch" selectedImage="IconSearch" id="h6s-D9-7fp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WOG-Bv-tbO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="858" y="637"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="mUM-U1-mKX">
+            <objects>
+                <viewController id="XwX-iP-3Qc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L63-Hg-OOY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WOOKIE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3NO-cN-k70">
+                                <rect key="frame" x="25" y="386" width="369" height="39"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="28"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MOVIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFl-Ez-edE">
+                                <rect key="frame" x="20" y="423" width="374" height="39"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="28"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dkK-eY-BV2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dkK-eY-BV2" firstAttribute="trailing" secondItem="yFl-Ez-edE" secondAttribute="trailing" constant="20" id="AIr-ta-KiF"/>
+                            <constraint firstItem="yFl-Ez-edE" firstAttribute="top" secondItem="3NO-cN-k70" secondAttribute="bottom" constant="-2" id="H5Q-fP-N9L"/>
+                            <constraint firstItem="yFl-Ez-edE" firstAttribute="top" secondItem="3NO-cN-k70" secondAttribute="bottom" constant="-2" id="Ngo-co-KQF"/>
+                            <constraint firstItem="3NO-cN-k70" firstAttribute="leading" secondItem="dkK-eY-BV2" secondAttribute="leading" constant="25" id="cIR-76-s50"/>
+                            <constraint firstItem="yFl-Ez-edE" firstAttribute="leading" secondItem="dkK-eY-BV2" secondAttribute="leading" constant="20" id="kHd-hB-CtN"/>
+                            <constraint firstItem="dkK-eY-BV2" firstAttribute="trailing" secondItem="3NO-cN-k70" secondAttribute="trailing" constant="20" id="kUO-bf-PLf"/>
+                            <constraint firstItem="3NO-cN-k70" firstAttribute="top" secondItem="dkK-eY-BV2" secondAttribute="top" constant="342" id="p1I-5n-zz0"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="IconHome" selectedImage="IconHome" id="2Lh-MH-481"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uxh-dy-VNC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857.97101449275374" y="29.464285714285712"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="8HG-9p-BeG">
+            <objects>
+                <tabBarController id="CpK-iF-L9j" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ta6-aI-8qA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" name="AccentColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XwX-iP-3Qc" kind="relationship" relationship="viewControllers" id="gxp-6B-yuW"/>
+                        <segue destination="HDu-Z5-4A1" kind="relationship" relationship="viewControllers" id="RP5-CE-rEA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h8w-aB-DG6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-32" y="333"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IconHome" width="20" height="20"/>
+        <image name="IconSearch" width="20" height="20"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GenreView" customModule="WookieMovies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="190"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genre Number 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o59-UZ-ig6">
+                    <rect key="frame" x="20" y="14" width="132" height="22"/>
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="8wb-Di-4ep">
+                    <rect key="frame" x="20" y="38" width="414" height="152"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="NIS-Cb-MIg">
+                        <size key="itemSize" width="124" height="149"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="8wb-Di-4ep" secondAttribute="bottom" id="1TZ-NC-cLo"/>
+                <constraint firstItem="8wb-Di-4ep" firstAttribute="top" secondItem="o59-UZ-ig6" secondAttribute="bottom" constant="2" id="2y5-Py-E50"/>
+                <constraint firstAttribute="leadingMargin" secondItem="o59-UZ-ig6" secondAttribute="leading" id="Lah-jR-FeJ"/>
+                <constraint firstItem="o59-UZ-ig6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="R0q-5H-DRa"/>
+                <constraint firstItem="8wb-Di-4ep" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="UJw-WZ-AVt"/>
+                <constraint firstItem="8wb-Di-4ep" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="gBO-Jg-Yuw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="8wb-Di-4ep" id="GAm-rt-iGQ"/>
+                <outlet property="labelView" destination="o59-UZ-ig6" id="ZRD-8V-tBv"/>
+            </connections>
+            <point key="canvasLocation" x="195.6521739130435" y="-81.696428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
