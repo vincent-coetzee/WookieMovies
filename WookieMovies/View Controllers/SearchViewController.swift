@@ -25,6 +25,9 @@ class SearchViewController: UIViewController
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.allowsSelection = true
+        let recognizer = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        recognizer.cancelsTouchesInView = false
+        self.view.addGestureRecognizer(recognizer)
         }
 
     }

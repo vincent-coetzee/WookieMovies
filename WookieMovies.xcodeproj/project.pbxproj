@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF115A54270D82C5007112C8 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF115A53270D82C5007112C8 /* UIImage+Extensions.swift */; };
 		BF1E4981270B82AC00203E56 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1E4980270B82AC00203E56 /* HomeViewController.swift */; };
 		BF1E4988270B89A500203E56 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1E4986270B89A500203E56 /* MovieViewCell.swift */; };
 		BF1E498A270B9B6C00203E56 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF712D13270B7FBA00DFBA49 /* OpenSans-Bold.ttf */; };
@@ -82,6 +83,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF115A53270D82C5007112C8 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		BF1E4980270B82AC00203E56 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BF1E4986270B89A500203E56 /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
 		BF1E49AB270BADEA00203E56 /* GenreView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenreView.xib; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		BF1E49A8270BA96100203E56 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BF20B8AD270C83CB005E2F82 /* FavouriteViewDelegate.swift */,
 				BF20B8A7270C7661005E2F82 /* FavouriteView.swift */,
 				BF1E49AD270BAF1000203E56 /* GenreView.swift */,
 				BF20B8A5270C5DB4005E2F82 /* MovieTableViewCell.swift */,
@@ -218,7 +221,6 @@
 				BF712D06270B6FAC00DFBA49 /* System Class Extensions */,
 				BF1E497F270B828400203E56 /* View Controllers */,
 				BF1E49A8270BA96100203E56 /* Views */,
-				BF20B8AD270C83CB005E2F82 /* FavouriteViewDelegate.swift */,
 			);
 			path = WookieMovies;
 			sourceTree = "<group>";
@@ -252,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				BF712D07270B6FAC00DFBA49 /* Optional+Extensions.swift */,
+				BF115A53270D82C5007112C8 /* UIImage+Extensions.swift */,
 			);
 			path = "System Class Extensions";
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				BF1E4988270B89A500203E56 /* MovieViewCell.swift in Sources */,
 				BF712CD4270B6F7D00DFBA49 /* AppDelegate.swift in Sources */,
 				BF1E49B6270C240300203E56 /* StarView.swift in Sources */,
+				BF115A54270D82C5007112C8 /* UIImage+Extensions.swift in Sources */,
 				BF20B8A8270C7661005E2F82 /* FavouriteView.swift in Sources */,
 				BF712CD6270B6F7D00DFBA49 /* SceneDelegate.swift in Sources */,
 			);
@@ -641,7 +645,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2VWYS94M5J;
+				DEVELOPMENT_TEAM = DLH9UBQV34;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WookieMovies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -654,7 +658,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.WookieMovies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.Movies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -669,7 +673,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2VWYS94M5J;
+				DEVELOPMENT_TEAM = DLH9UBQV34;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WookieMovies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -682,7 +686,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.WookieMovies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macsemantics.Movies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -9,6 +9,14 @@ import UIKit
 
 internal class HomeViewController: UIViewController
     {
+    ///
+    ///
+    /// Define constants for the view controller close to point of use,
+    /// this is done rather than centralising constants because if they
+    /// are centralized they further away from where they are used and
+    /// are therefore difficult to maintain.
+    ///
+    ///
     private static let kRowHeight:CGFloat = 192
     private static let kGenreLabelInset:CGFloat =  10
     private static let kGenreItemHeight:CGFloat = 100
